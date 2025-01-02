@@ -27,30 +27,40 @@ print(float(a)//float(b))<br><br>
 
 c. if else calculater
 -----------------------
-print("choose operator")<br><br>
-print("1. Addition(+)")<br><br>
-print("2. Subtraction(-)")<br><br>
-print("3. Division(/)")<br><br>
-print("4. Modulo(%)")<br><br>
-print("5. Multiplication(*)")<br><br>
+print("Choose operator")
+
+print("1. Addition (+)")<br><br>
+print("2. Subtraction (-)")<br><br>
+print("3. Division (/)")<br><br>
+print("4. Modulo (%)")<br><br>
+print("5. Multiplication (*)")<br><br>
+
 try:<br><br>
-operator = int(input("Enter the number corresponding to the operator (1-5): "))<br><br>
-a = float(input("enter the value of a : "))<br><br>
-b = float(input("enter the value of b : "))<br><br>
-if operator == 1:<br><br>
-print(f"The result of {a} + {b} is: {a + b}")<br><br>
-elif operator == 2:<br><br>
-print(f"The result of {a} - {b} is: {a - b}")<br><br>
-elif operator == 3:<br><br>
-if b != 0:<br><br>
-print(f"The result of {a} / {b} is: {a / b}")<br><br>
-else:<br><br>
- print("Error: Division by zero is not allowed.")<br><br>
-elif operator == 4:<br><br>
-print(f"The result of {a} % {b} is: {a % b}")<br><br>
-elif operator == 5:<br><br>
-print(f"The result of {a} * {b} is: {a * b}")<br><br>
-else:<br><br>
-print("Invalid operation selected.")<br><br>
+    operator = int(input("Enter the number corresponding to the operator (1-5): "))<br><br>
+    a = float(input("Enter the value of a: "))<br><br>
+    b = float(input("Enter the value of b: "))<br><br>
+
+    if operator == 1:<br><br>
+        print(f"The result of {a} + {b} is: {a + b}")<br><br>
+    
+    elif operator == 2:<br><br>
+        print(f"The result of {a} - {b} is: {a - b}")<br><br>
+    
+    elif operator == 3:<br><br>
+        if b != 0:<br><br>
+            print(f"The result of {a} / {b} is: {a / b}")<br><br>
+        else:<br><br>
+            print("Error: Division by zero is not allowed.")<br><br>
+    
+    elif operator == 4:<br><br>
+        print(f"The result of {a} % {b} is: {a % b}")<br><br>
+    
+    elif operator == 5:<br><br>
+        print(f"The result of {a} * {b} is: {a * b}")<br><br>
+    
+    else:<br><br>
+        print("Invalid operation selected.")<br><br>
+
 except ValueError:<br><br>
-print("Invalid input. Please enter numeric values.")<br><br>
+    print("Invalid input. Please enter numeric values.")<br><br>
+
