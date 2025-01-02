@@ -16,8 +16,8 @@ print(float(a)//float(b))<br><br>
 
 b. user defined calculator of two numbers
 -------------------------------------------
-a = float(input("enter the value of a : ")<br><br>
-b = float(input("enter the value of b : ")<br><br>
+a = float(input("enter the value of a : "))<br><br>
+b = float(input("enter the value of b : "))<br><br>
 print(float(a)+float(b))<br><br>
 print(float(a)-float(b))<br><br>
 print(float(a)*float(b))<br><br>
