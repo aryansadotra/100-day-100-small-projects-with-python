@@ -34,7 +34,7 @@ print("3. Division(/)")<br><br>
 print("4. Modulo(%)")<br><br>
 print("5. Multiplication(*)")<br><br>
 try:<br><br>
-operator = int(input("Enter the number corresponding to the operator (1-5): "))<br><br>
+operator = int(input("Enter the number corresponding to the operator (1-5): ")<br><br>
 a = float(input("enter the value of a : ")<br><br>
 b = float(input("enter the value of b : ")<br><br>
 if operator == 1:<br><br>
