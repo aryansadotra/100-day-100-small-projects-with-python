@@ -66,13 +66,13 @@ except ValueError:<br><br>
 
 **2. Program should use time module to get the current hour**
 --------------------------------------------------------------
-import time
-timestamp = time.strftime('%H:%M:%S')
-print(timestamp)
-timestamp = time.strftime('%H')
-print(timestamp)
-timestamp = time.strftime('%M')
-print(timestamp)
-timestamp = time.strftime('%S')
-print(timestamp)
-# https://docs.python.org/3/library/time.html#time.strftime
+import time<br><br>
+timestamp = time.strftime('%H:%M:%S')<br><br>
+print(timestamp)<br><br>
+timestamp = time.strftime('%H')<br><br>
+print(timestamp)<br><br>
+timestamp = time.strftime('%M')<br><br>
+print(timestamp)<br><br>
+timestamp = time.strftime('%S')<br><br>
+print(timestamp)<br><br>
+
